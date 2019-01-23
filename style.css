@@ -255,13 +255,15 @@ nav::after{
 }
 
 .about li p{
-    padding: 1em;
+    padding: 0.3em;
+    width: 35em;
 }
 .title{
     font-size: 2.2em;
     margin-bottom: 0.7em;
 }
 .nameCEO{
+    
     color: #333333;
 }
 
@@ -367,12 +369,12 @@ nav::after{
     height: 10em;
     top: -6em;
     float: left;
+    left: 2em;
 }
 
 .foot h2{
     color: #9f9f9f;
 }
-
 
 .foot div:last-of-type{
     position: relative;
@@ -388,9 +390,110 @@ nav::after{
     height: 100%;
 }
 
+.details{
+    position: absolute;
+    width: 93%;
+    height: 14em;
+    top: 115em;
+    left: 2em;
+    padding: 0;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #868686;
+    padding: 0em 1em 0 1em;
+    grid-column-gap: 1em;
+}
+
+.wrapper ul{
+    list-style: none;
+}
+
+.wrapper div{
+    margin-top: -1.3em;
+}
+
+.wrapper h5{
+    font-size: 1.2em;
+    font-weight: 100;
+    color: #666666;
+    line-height: 3em;
+}
+
+.contact p{
+    line-height: 1.2em;
+}
+
+.links li{
+    line-height: 2.1em;
+    border-bottom: 1px #333333 solid;
+}
+
+.links li a{
+    text-decoration: none;
+    color: #ff9900;
+}
+/*
+.about{
+    width: 18em;
+}
+
+
+.about a{
+    margin-top: 1em;
+    text-decoration: none;
+    color: #ff9900;
+    float: right;
+}
+
+.about p{
+    line-height: 1em;
+}
+
+.about i{
+    font-size: 1em;
+    float: right;
+}
+*/
+.newsletter input[type="text"], .newsletter input[type="email"]{
+    background: #333333;
+    margin-bottom: 0.5em;
+    float: left;
+    border: none;
+    border-radius: 0.3em;
+    height: 2.3em;
+    width: 24em;
+}
+
+.newsletter input[type="submit"]{
+    float: left;
+    clear: both;
+    height: 2.3em;
+    color: #ff9900;
+    background: #333333;
+    border: none;
+    width: 6em;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+.newsletter input::placeholder{
+    padding-left: 0.7em;
+}
 
 footer{
     position: absolute;
-    bottom: 0;
-    background: #fff;
+    top: 130em;
+    height: 5em;
+    width: 92.6%;
+    left: 2em;
+    background: #000000;
+    color: #737373;
+}
+
+.foo{
+    position: absolute;
+  text-anchor: middle;
 }
